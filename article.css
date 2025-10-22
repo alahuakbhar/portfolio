@@ -1,13 +1,13 @@
 #article {
-    background-color: #e7e0d7;
-    color: #222;
+    background-color: #000000;
+    color: #ffffff;
     font-family: "Poppins", sans-serif;
     line-height: 1.6;
 }
 
 /* Header styling */
 #Header_article {
-    background-color: #1f2937;
+    background-color: #002558;
     color: white;
     text-align: center;
     padding: 28px 12px; /*padding top/bottom and left/right*/
