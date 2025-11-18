@@ -31,5 +31,30 @@
     </div>
 
     <script src="./scripts/name-toggle.js"></script>
+    <div id="contact-form" class="hidden">
+    <div class="form-box">
+      <h2 class="form-header"> Contact Me</h2>
+      <form id="emailForm">
+        <label for="name-input">Your Name</label>
+        <input type="text" id="name-input" required placeholder="Enter your name">
+
+        <label for="subject-input">Topic</label>
+        <select id="subject-input" required>
+          <option value="General Inquiry">General Inquiry</option>
+          <option value="Portfolio Feedback">Portfolio Feedback</option>
+          <option value="Message">Message</option>
+          <option value="Other">Other</option>
+        </select>
+
+        <label for="message-input">Your Message</label>
+        <textarea id="message-input" rows="5" required placeholder="Write your message here..."></textarea>
+
+        <div class="button-row">
+          <button type="submit">Send</button>
+          <button type="button" id="close-btn">Close</button>
+        </div>
+      </form>
+    </div>
+  </div>       <script src="form-toggle.js"></script>
   </body>
 </html>

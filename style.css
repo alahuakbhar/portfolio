@@ -246,4 +246,72 @@ img:hover {
         grid-row-end: 12;
         grid-column: span 4;
     }
+    #contact-form {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contact-form .form-box {
+    background: #222;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    width: 90%;
+    max-width: 28rem;
+    border: 3px solid black;
+    animation: fadeIn 0.3s ease;
+}
+
+#contact-form h2 {
+    color: white;
+}
+
+#contact-form label {
+    color: #aaa;
+    display: block;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    border-radius: var(--border-radius);
+    border: 2px solid black;
+    background: #111;
+    color: white;
+}
+
+#contact-form .button-row {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+#contact-form button {
+    flex: 1;
+    background: #171717;
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 0.6rem;
+    color: white;
+    border-radius: var(--border-radius);
+}
+
+.form-header {
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5rem;
+}
+
+#contact-form button:hover {
+    color: rgb(54, 105, 134);
+}
 }
