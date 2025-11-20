@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     closeBtn.addEventListener("click", () => {
-        contactForm.style.display = "none";
+        contactForm.classList.add("hidden");
         mainContent.style.display = "grid";
     });
 
