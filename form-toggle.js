@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     emailBtn.addEventListener("click", () => {
         mainContent.style.display = "none";
-        contactForm.style.display = "flex";
+        contactForm.classList.remove("hidden");
     });
 
     closeBtn.addEventListener("click", () => {
